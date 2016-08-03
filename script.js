@@ -4,7 +4,7 @@ $(document).ready(function () {
        console.log(city);
        $("#city-name").html(city);
   var apiKey = 'e83b3c4c08285bf87b99f9bbc0abe3f0';
-  var weatherUrl = 'http://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=imperial&appid=' + apiKey;
+  var weatherUrl = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=imperial&appid=' + apiKey;
 
    
 //.getJSON solution
